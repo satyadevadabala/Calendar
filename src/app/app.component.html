@@ -1,0 +1,16 @@
+<button (click)="pre(preDate)">Prvs</button> {{ preDate | slice: 4:15 }} -
+{{ lastDate | slice: 4:15 }}
+<button (click)="next(lastDate)">Nxt</button>
+<table>
+  <tr>
+    {{
+      day
+    }}
+  </tr>
+  <tr>
+    {{
+      dateArr
+    }}
+  </tr>
+  <tr></tr>
+</table>
